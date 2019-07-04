@@ -19,13 +19,13 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Luca Perić's Blog">
     <meta property="og:description" content="Posts about anything software engineering, CS, deep learning, crypto and startups.">
-    <meta property="og:url" content="http://localhost:2368/">
-    <meta property="og:image" content="http://localhost:2368/content/images/2019/04/sapce.png">
+    <meta property="og:url" content="https://blog.lucaperic.com/">
+    <meta property="og:image" content="https://blog.lucaperic.com/content/images/2019/04/sapce.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Luca Perić's Blog">
     <meta name="twitter:description" content="Posts about anything software engineering, CS, deep learning, crypto and startups.">
-    <meta name="twitter:url" content="http://localhost:2368/">
-    <meta name="twitter:image" content="http://localhost:2368/content/images/2019/04/sapce.png">
+    <meta name="twitter:url" content="https://blog.lucaperic.com/">
+    <meta name="twitter:image" content="https://blog.lucaperic.com/content/images/2019/04/sapce.png">
     <meta name="twitter:site" content="@lp_peric">
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="896">
@@ -39,21 +39,21 @@
         "name": "Luca Perić&#x27;s Blog",
         "logo": {
             "@type": "ImageObject",
-            "url": "http://localhost:2368/content/images/2019/04/me_square.png",
+            "url": "https://blog.lucaperic.com/content/images/2019/04/me_square.png",
             "width": 60,
             "height": 60
         }
     },
-    "url": "http://localhost:2368/",
+    "url": "https://blog.lucaperic.com/",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:2368/content/images/2019/04/sapce.png",
+        "url": "https://blog.lucaperic.com/content/images/2019/04/sapce.png",
         "width": 2000,
         "height": 896
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:2368/"
+        "@id": "https://blog.lucaperic.com/"
     },
     "description": "Posts about anything software engineering, CS, deep learning, crypto and startups."
 }
@@ -141,7 +141,7 @@
                 <a class="social-link social-link-tw" href="https://twitter.com/lp_peric" title="Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
 </a>
         </div>
-            <a class="rss-button" href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg>
+            <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://blog.lucaperic.com/rss/index.rss" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg>
 </a>
     </div>
 </nav>
@@ -153,7 +153,7 @@
 
         <div class="post-feed">
 
-                <article class="post-card post tag-learning-go tag-technical featured post-card-large">
+                <article class="post-card post tag-understanding-go tag-technical featured post-card-large">
 
     <a class="post-card-image-link" href="understanding-go-intro/">
         <img class="post-card-image" srcset="content/images/size/w300/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 300w,
@@ -167,7 +167,7 @@
         <a class="post-card-content-link" href="understanding-go-intro/">
 
             <header class="post-card-header">
-                    <span class="post-card-tags">Learning Go</span>
+                    <span class="post-card-tags">Understanding Go</span>
                 <h2 class="post-card-title">Understanding Go: An exploratory blog series</h2>
             </header>
 
@@ -289,7 +289,7 @@
     
 
     <script>
-    if(window.location.pathname != "/"){
+    if(window.location.pathname != "/" && window.location.pathname != "/index.html" && window.location.pathname != "/author/luca/"){
    		var header = document.getElementsByClassName("site-header");
         header[0].style.background = "linear-gradient(90deg,#4064d8,#4ad8dd)"
     }

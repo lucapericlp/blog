@@ -2,44 +2,40 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Salve Mundi</title>
+    <title>Understanding Go: An exploratory blog series</title>
 
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
+    <meta name="description" content="Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.">
     <link rel="shortcut icon" href="../../favicon.png" type="image/png">
-    <link rel="canonical" href="../index.html">
+    <link rel="canonical" href="https://blog.lucaperic.com/understanding-go/intro">
     <meta name="referrer" content="no-referrer-when-downgrade">
     
     <meta property="og:site_name" content="Luca Perić's Blog">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Salve Mundi">
-    <meta property="og:description" content="Hi, I'm Luca Perić. For the most part, I'll be attempting to write concise and
-digestible technical posts related to anything I'm discovering, learning or
-already know within the software engineering world. 
-
-More on me via my bio [https://blog.lucaperic.com/author/luca/], @lp_peric
-[https://twitter.com/lp_peric]  and my CV [http://lucaperic.com/cv].">
-    <meta property="og:url" content="http://localhost:2368/salve-mundi/">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1530347927633-5f393ff7abd0?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ">
-    <meta property="article:published_time" content="2019-04-22T18:54:49.000Z">
-    <meta property="article:modified_time" content="2019-07-03T16:41:29.000Z">
+    <meta property="og:title" content="Understanding Go: An exploratory blog series">
+    <meta property="og:description" content="Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.">
+    <meta property="og:url" content="https://blog.lucaperic.com/understanding-go/intro">
+    <meta property="og:image" content="http://localhost:2368/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg">
+    <meta property="article:published_time" content="2019-06-17T10:51:05.000Z">
+    <meta property="article:modified_time" content="2019-07-03T16:18:12.000Z">
+    <meta property="article:tag" content="Learning Go">
+    <meta property="article:tag" content="Technical">
+    
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Salve Mundi">
-    <meta name="twitter:description" content="Hi, I'm Luca Perić. For the most part, I'll be attempting to write concise and
-digestible technical posts related to anything I'm discovering, learning or
-already know within the software engineering world. 
-
-More on me via my bio [https://blog.lucaperic.com/author/luca/], @lp_peric
-[https://twitter.com/lp_peric]  and my CV [http://lucaperic.com/cv].">
-    <meta name="twitter:url" content="http://localhost:2368/salve-mundi/">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1530347927633-5f393ff7abd0?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ">
+    <meta name="twitter:title" content="Understanding Go: An exploratory blog series">
+    <meta name="twitter:description" content="Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.">
+    <meta name="twitter:url" content="https://blog.lucaperic.com/understanding-go/intro">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Luca Peric">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Learning Go, Technical">
     <meta name="twitter:site" content="@lp_peric">
     <meta name="twitter:creator" content="@lucapericlp">
-    <meta property="og:image:width" content="1080">
-    <meta property="og:image:height" content="810">
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="1800">
     
     <script type="application/ld+json">
 {
@@ -70,17 +66,18 @@ More on me via my bio [https://blog.lucaperic.com/author/luca/], @lp_peric
             "https://twitter.com/lucapericlp"
         ]
     },
-    "headline": "Salve Mundi",
-    "url": "http://localhost:2368/salve-mundi/",
-    "datePublished": "2019-04-22T18:54:49.000Z",
-    "dateModified": "2019-07-03T16:41:29.000Z",
+    "headline": "Understanding Go: An exploratory blog series",
+    "url": "http://localhost:2368/understanding-go-intro/",
+    "datePublished": "2019-06-17T10:51:05.000Z",
+    "dateModified": "2019-07-03T16:18:12.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1530347927633-5f393ff7abd0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ",
-        "width": 1080,
-        "height": 810
+        "url": "http://localhost:2368/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg",
+        "width": 1800,
+        "height": 1800
     },
-    "description": "Hi, I&#x27;m Luca Perić. For the most part, I&#x27;ll be attempting to write concise and\ndigestible technical posts related to anything I&#x27;m discovering, learning or\nalready know within the software engineering world. \n\nMore on me via my bio [https://blog.lucaperic.com/author/luca/], @lp_peric\n[https://twitter.com/lp_peric]  and my CV [http://lucaperic.com/cv].",
+    "keywords": "Learning Go, Technical",
+    "description": "Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -112,18 +109,18 @@ More on me via my bio [https://blog.lucaperic.com/author/luca/], @lp_peric
         <article class="post">
 
             <header class="post-header">
-                <h1 class="post-title">Salve Mundi</h1>
+                <h1 class="post-title">Understanding Go: An exploratory blog series</h1>
                 <section class="post-meta">
                     <p class="author">by <a href="../../author/luca/">Luca Peric</a></p>
-                    <time class="post-date" datetime="2019-04-22">2019-04-22</time>
+                    <time class="post-date" datetime="2019-06-17">2019-06-17</time>
                 </section>
             </header>
             <figure class="post-image">
-                <amp-img src="https://images.unsplash.com/photo-1530347927633-5f393ff7abd0?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" width="600" height="400" layout="responsive"></amp-img>
+                <amp-img src="http://localhost:2368/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg" width="600" height="400" layout="responsive"></amp-img>
             </figure>
             <section class="post-content">
 
-                <p>Hi, I'm Luca Perić. For the most part, I'll be attempting to write concise and digestible technical posts related to anything I'm discovering, learning or already know within the software engineering world. </p><p>More on me via my <a href="https://blog.lucaperic.com/author/luca/">bio</a>, <a href="https://twitter.com/lp_peric">@lp_peric</a> and my <a href="http://lucaperic.com/cv">CV</a>.</p>
+                <p>After spending the majority of my time working within the dynamically typed and interpreted languages, I've found myself (<a href="https://blog.lucaperic.com/author/luca/">who?</a>) wanting to explore more performant languages that are more viable within the modern tech stack for scalable architectures. I'll be exploring the language (standard library initially) from the bottom up in order to gain the best possible understanding of Go's different characteristics and best practices (both are not necessarily concepts exclusive to Go) followed by trying to detail the fresh learning path for easiest possible consumption (across time and explanation complexity).</p>
 
             </section>
 

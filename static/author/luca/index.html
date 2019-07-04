@@ -1,3 +1,4 @@
+
 <head>
 
     <meta charset="utf-8">
@@ -7,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=6bca181368">
+    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=09137b63aa">
 
     <link rel="shortcut icon" href="../../favicon.png" type="image/png">
     <link rel="canonical" href="index.html">
@@ -17,11 +18,15 @@
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Luca Peric - Luca Perić's Blog">
     <meta property="og:url" content="http://localhost:2368/author/luca/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="http://localhost:2368/content/images/2019/07/stoa-blur2.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Luca Peric - Luca Perić's Blog">
     <meta name="twitter:url" content="http://localhost:2368/author/luca/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2019/07/stoa-blur2.png">
     <meta name="twitter:site" content="@lp_peric">
     <meta name="twitter:creator" content="@lucapericlp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="900">
     
     <script type="application/ld+json">
 {
@@ -33,6 +38,12 @@
     ],
     "name": "Luca Peric",
     "url": "http://localhost:2368/author/luca/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2019/07/stoa-blur2.png",
+        "width": 1200,
+        "height": 900
+    },
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -69,7 +80,38 @@
 
 
 
-<header class="site-header outer no-image">
+<style type="text/css">
+.responsive-header-img {
+    background-image: url(../../content/images/size/w2000/2019/07/stoa-blur2.png);
+}
+@media(max-width: 1000px) {
+    .responsive-header-img {
+        background-image: url(../../content/images/size/w1000/2019/07/stoa-blur2.png);
+        background-image: -webkit-image-set(
+                url(../../content/images/size/w1000/2019/07/stoa-blur2.png) 1x,
+                url(../../content/images/size/w2000/2019/07/stoa-blur2.png) 2x
+        );
+        background-image: image-set(
+                url(../../content/images/size/w1000/2019/07/stoa-blur2.png) 1x,
+                url(../../content/images/size/w2000/2019/07/stoa-blur2.png) 2x
+        );
+    }
+}
+@media(max-width: 600px) {
+    .responsive-header-img {
+        background-image: url(../../content/images/size/w600/2019/07/stoa-blur2.png);
+        background-image: -webkit-image-set(
+                url(../../content/images/size/w600/2019/07/stoa-blur2.png) 1x,
+                url(../../content/images/size/w1000/2019/07/stoa-blur2.png) 2x
+        );
+        background-image: image-set(
+                url(../../content/images/size/w600/2019/07/stoa-blur2.png) 1x,
+                url(../../content/images/size/w1000/2019/07/stoa-blur2.png) 2x
+        );
+    }
+}
+</style>
+<header class="site-header outer responsive-header-img">
 
  
     <div class="inner">
@@ -95,10 +137,10 @@
         <div class="site-header-content">
                 <img class="author-profile-image" src="../../content/images/2019/04/meirl.jpeg" alt="Luca Peric">
             <h1 class="site-title">Luca Peric</h1>
-                <h2 class="author-bio">Amor fati.</h2>
+                <h2 class="author-bio">I'm a software engineer - enthusiastic about any system's optimisation &amp; performance and the application of impactful innovation in any industry. Amor fati.</h2>
             <div class="author-meta">
                 <div class="author-stats">
-                    1 post <span class="bull">•</span>
+                    2 posts <span class="bull">•</span>
                 </div>
                     <a class="social-link social-link-wb" href="https://lucaperic.com" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M23.5 11.957c0 6.375-5.163 11.544-11.532 11.544C5.599 23.5.5 18.125.5 11.75.5 5.542 5.37.758 11.505.511l.5-.011C18.374.5 23.5 5.582 23.5 11.957zM11.505.511c-6 6.5-6 14.98 0 22.98m1-22.98c6 6.5 6 14.977 0 22.977M2 17.479h20.063m-19.657-12h19.062m-20.968 6h22.938" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" fill="none"></path></svg>
 </a>
@@ -115,6 +157,54 @@
     <div class="inner">
 
         <div class="post-feed">
+
+                <article class="post-card post tag-understanding-go tag-technical featured ">
+
+    <a class="post-card-image-link" href="../../understanding-go-intro/">
+        <img class="post-card-image" srcset="../../content/images/size/w300/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 300w,
+                   ../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 600w,
+                  ../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 1000w,
+                 ../../content/images/size/w2000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 2000w" sizes="(max-width: 1000px) 400px, 700px" src="../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg" alt="Understanding Go: An exploratory blog series">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="../../understanding-go-intro/">
+
+            <header class="post-card-header">
+                    <span class="post-card-tags">Understanding Go</span>
+                <h2 class="post-card-title">Understanding Go: An exploratory blog series</h2>
+            </header>
+
+            <section class="post-card-excerpt">
+                <p>Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.</p>
+            </section>
+
+        </a>
+
+        <footer class="post-card-meta">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+
+                    <div class="author-name-tooltip">
+                        Luca Peric
+                    </div>
+
+                        <a href="index.html" class="static-avatar">
+                            <img class="author-profile-image" src="../../content/images/size/w100/2019/04/meirl.jpeg" alt="Luca Peric">
+                        </a>
+                </li>
+            </ul>
+
+            <span class="reading-time">1 min read</span>
+
+        </footer>
+
+    </div>
+
+</article>
+
 
                 <article class="post-card post featured ">
 
@@ -134,7 +224,7 @@
             </header>
 
             <section class="post-card-excerpt">
-                <p>Welcome post here.</p>
+                <p>Hi, I'm Luca Perić. For the most part, I'll be attempting to write concise and digestible technical posts related to anything I'm discovering, learning or already know within the software engineering world. More</p>
             </section>
 
         </a>
@@ -197,12 +287,17 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../../assets/built/jquery.fitvids.js?v=6bca181368"></script>
+    <script type="text/javascript" src="../../assets/built/jquery.fitvids.js?v=09137b63aa"></script>
 
-    <script src="../../assets/built/infinitescroll.js?v=6bca181368"></script>
-
-    
+    <script src="../../assets/built/infinitescroll.js?v=09137b63aa"></script>
 
     
+
+    <script>
+    if(window.location.pathname != "/" && window.location.pathname != "/index.html" && window.location.pathname != "/author/luca/"){
+   		var header = document.getElementsByClassName("site-header");
+        header[0].style.background = "linear-gradient(90deg,#4064d8,#4ad8dd)"
+    }
+</script>
 
 </body>

@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 <head>
 
     <meta charset="utf-8">
@@ -8,7 +9,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=09137b63aa">
+    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=534390e9fb">
 
     <link rel="shortcut icon" href="../../favicon.png" type="image/png">
     <link rel="canonical" href="index.html">
@@ -17,11 +18,15 @@
     <meta property="og:site_name" content="Luca Perić's Blog">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Understanding Go - Luca Perić's Blog">
-    <meta property="og:url" content="https://blog.lucaperic.com/tag/understanding-go/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:url" content="http://blog.lucaperic.com/tag/understanding-go/">
+    <meta property="og:image" content="http://blog.lucaperic.com/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Understanding Go - Luca Perić's Blog">
-    <meta name="twitter:url" content="https://blog.lucaperic.com/tag/understanding-go/">
+    <meta name="twitter:url" content="http://blog.lucaperic.com/tag/understanding-go/">
+    <meta name="twitter:image" content="http://blog.lucaperic.com/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg">
     <meta name="twitter:site" content="@lp_peric">
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="1800">
     
     <script type="application/ld+json">
 {
@@ -32,16 +37,22 @@
         "name": "Luca Perić&#x27;s Blog",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://blog.lucaperic.com/content/images/2019/04/me_square.png",
+            "url": "http://blog.lucaperic.com/content/images/2019/04/me_square.png",
             "width": 60,
             "height": 60
         }
     },
-    "url": "https://blog.lucaperic.com/tag/understanding-go/",
+    "url": "http://blog.lucaperic.com/tag/understanding-go/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://blog.lucaperic.com/content/images/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg",
+        "width": 1800,
+        "height": 1800
+    },
     "name": "Understanding Go",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://blog.lucaperic.com/"
+        "@id": "http://blog.lucaperic.com/"
     }
 }
     </script>
@@ -73,16 +84,47 @@
         
 
 
-<header class="site-header outer no-image">
+<style type="text/css">
+.responsive-header-img {
+    background-image: url(../../content/images/size/w2000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg);
+}
+@media(max-width: 1000px) {
+    .responsive-header-img {
+        background-image: url(../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg);
+        background-image: -webkit-image-set(
+                url(../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 1x,
+                url(../../content/images/size/w2000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 2x
+        );
+        background-image: image-set(
+                url(../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 1x,
+                url(../../content/images/size/w2000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 2x
+        );
+    }
+}
+@media(max-width: 600px) {
+    .responsive-header-img {
+        background-image: url(../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg);
+        background-image: -webkit-image-set(
+                url(../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 1x,
+                url(../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 2x
+        );
+        background-image: image-set(
+                url(../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 1x,
+                url(../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg) 2x
+        );
+    }
+}
+</style>
+<header class="site-header outer responsive-header-img">
 
  
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
-                <a class="site-nav-logo" href="../../"><img src="../../content/images/2019/04/me_square.png" alt="Luca Perić's Blog"></a>
+                <a class="site-nav-logo" href="../../index.html"><img src="../../content/images/2019/04/me_square.png" alt="Luca Perić's Blog"></a>
             <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="../../">Home</a></li>
-    <li class="nav-me" role="menuitem"><a href="../../author/luca/">Me</a></li>
+    <li class="nav-home" role="menuitem"><a href="../../index.html">Home</a></li>
+    <li class="nav-me" role="menuitem"><a href="../../author/luca/index.html">Me</a></li>
     <li class="nav-github-projects" role="menuitem"><a href="https://github.com/lucapericlp">GitHub Projects</a></li>
 </ul>
 
@@ -110,16 +152,16 @@
         <div class="post-feed">
                 <article class="post-card post tag-understanding-go tag-technical featured ">
 
-    <a class="post-card-image-link" href="../../understanding-go-intro/">
-        <img class="post-card-image" srcset="../../content/images/size/w300/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 300w,
-                   ../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 600w,
-                  ../../content/images/size/w1000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 1000w,
-                 ../../content/images/size/w2000/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg 2000w" sizes="(max-width: 1000px) 400px, 700px" src="../../content/images/size/w600/2019/06/03cbc1a9f9178055093eb0c25ba9df2c29611671-1.jpg" alt="Understanding Go: An exploratory blog series">
+    <a class="post-card-image-link" href="../../understanding-go-intro/index.html">
+        <img class="post-card-image" srcset="../../content/images/size/w300/2019/08/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg 300w,
+                   ../../content/images/size/w600/2019/08/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg 600w,
+                  ../../content/images/size/w1000/2019/08/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg 1000w,
+                 ../../content/images/size/w2000/2019/08/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg 2000w" sizes="(max-width: 1000px) 400px, 700px" src="../../content/images/size/w600/2019/08/03cbc1a9f9178055093eb0c25ba9df2c29611671.jpg" alt="Understanding Go: An exploratory blog series">
     </a>
 
     <div class="post-card-content">
 
-        <a class="post-card-content-link" href="../../understanding-go-intro/">
+        <a class="post-card-content-link" href="../../understanding-go-intro/index.html">
 
             <header class="post-card-header">
                     <span class="post-card-tags">Understanding Go</span>
@@ -127,7 +169,7 @@
             </header>
 
             <section class="post-card-excerpt">
-                <p>Understanding Go is an exploratory blog series which attempts to explore and explain different aspects of the Go programming language in the easiest way possible.</p>
+                <p>A blog series dedicated to evaluating and sharing bits of knowledge gained through the process of learning a new language with previous experience in mostly Python and Java.</p>
             </section>
 
         </a>
@@ -141,8 +183,8 @@
                         Luca Peric
                     </div>
 
-                        <a href="../../author/luca/" class="static-avatar">
-                            <img class="author-profile-image" src="../../content/images/size/w100/2019/04/meirl.jpeg" alt="Luca Peric">
+                        <a href="../../author/luca/index.html" class="static-avatar">
+                            <img class="author-profile-image" src="../../content/images/size/w100/2019/08/meirl.jpg" alt="Luca Peric">
                         </a>
                 </li>
             </ul>
@@ -161,9 +203,9 @@
 
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="../../">Luca Perić's Blog</a> © 2019</section>
+                <section class="copyright"><a href="../../index.html">Luca Perić's Blog</a> © 2019</section>
                 <nav class="site-footer-nav">
-                    <a href="../../">Latest Posts</a>
+                    <a href="../../index.html">Latest Posts</a>
                     
                     <a href="https://twitter.com/lp_peric" target="_blank" rel="noopener">Twitter</a>
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
@@ -188,9 +230,9 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../../assets/built/jquery.fitvids.js?v=09137b63aa"></script>
+    <script type="text/javascript" src="../../assets/built/jquery.fitvids.js?v=534390e9fb"></script>
 
-    <script src="../../assets/built/infinitescroll.js?v=09137b63aa"></script>
+    <script src="../../assets/built/infinitescroll.js?v=534390e9fb"></script>
 
     
 
@@ -202,3 +244,4 @@
 </script>
 
 </body>
+</html>
